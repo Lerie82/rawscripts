@@ -12,10 +12,16 @@ It's the code that is running at <http://www.rawscripts.com>.
 If you just want to write screenplays, you can go to
 <http://www.rawscripts.com>. Log in and start writing.
 
+## Installing pip
+
+- Download the get-pip.py script (https://bootstrap.pypa.io/get-pip.py)
+```
+c:\>python get-pip.py
+```
 
 ## How to get the development version running
 ```
-mkvirtualenv rawscripts
-pip install -r requirements.txt
-python runserver.py
+c:\>mkvirtualenv rawscripts
+c:\>python pip install -r requirements.txt
+c:\>python runserver.py
 ```
